@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe using native JavaScript</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div class="title-wrapper">
+    <h1> TIC TAC TOE</h1>
+    <h2 id="message"></h2>
+</div>
+
+<div class="game-wrapper">
+	<button id="computer" onclick="compTurn();">Play against the computer</button>
+    <button id="reset" onclick="reset();">Reset</button>;
+    <div class="board-row-1 board-row">
+        <button id="A1" class="box" onclick="markSquare(this); compTurn();">-</button>
+        <button id="A2" class="box" onclick="markSquare(this); compTurn();">-</button>
+        <button id="A3" class="box" onclick="markSquare(this); compTurn();">-</button>
+    </div>
+    <div class="board-row-2 board-row">
+         <button id="B1" class="box" onclick="markSquare(this); compTurn();">-</button>
+        <button id="B2" class="box" onclick="markSquare(this); compTurn();">-</button>
+        <button id="B3" class="box" onclick="markSquare(this); compTurn();">-</button>
+    </div>
+    <div class="board-row-3 board-row">
+  		<button id="C1" class="box" onclick="markSquare(this); compTurn();">-</button>
+        <button id="C2" class="box" onclick="markSquare(this); compTurn();">-</button>
+        <button id="C3" class="box" onclick="markSquare(this); compTurn();">-</button>
+
+</div>
+
+
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
